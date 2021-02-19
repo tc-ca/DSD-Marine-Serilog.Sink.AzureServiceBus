@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Serilog.Sink.AzureServiceBus\Serilog.Sink.AzureServiceBus.csproj" />
+    <ProjectReference Include="..\Serilog.Sink.AzureServiceBus\DSD.MSS.Serilog.Sink.AzureServiceBus.csproj" />
   </ItemGroup>
 
 </Project>

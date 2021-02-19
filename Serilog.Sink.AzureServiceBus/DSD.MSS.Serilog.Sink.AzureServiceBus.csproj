@@ -9,6 +9,8 @@ https://github.com/tc-ca/DSD-Marine-Serilog.Sink.AzureServiceBus</Description>
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Serillog; Serilog.Sink; Azure Service Bus; Message Queue;</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/tc-ca/DSD-Marine-Serilog.Sink.AzureServiceBus</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
