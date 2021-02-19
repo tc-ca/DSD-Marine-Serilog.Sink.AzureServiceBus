@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sink.AzureServiceBus.Demo", "Serilog.Sink.AzureServiceBus.Demo.csproj", "{A3BBD307-C202-4573-BA96-A3E7D87E4725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sink.AzureServiceBus", "..\Serilog.Sink.AzureServiceBus\Serilog.Sink.AzureServiceBus.csproj", "{9FEEFDD3-C256-4EBD-A9CB-1C0AAB9C4D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3BBD307-C202-4573-BA96-A3E7D87E4725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BBD307-C202-4573-BA96-A3E7D87E4725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BBD307-C202-4573-BA96-A3E7D87E4725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BBD307-C202-4573-BA96-A3E7D87E4725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEEFDD3-C256-4EBD-A9CB-1C0AAB9C4D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEEFDD3-C256-4EBD-A9CB-1C0AAB9C4D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEEFDD3-C256-4EBD-A9CB-1C0AAB9C4D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEEFDD3-C256-4EBD-A9CB-1C0AAB9C4D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D468763-5B69-4420-8E69-7553B14FDB5C}
+	EndGlobalSection
+EndGlobal
