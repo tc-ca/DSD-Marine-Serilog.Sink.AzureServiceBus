@@ -6,10 +6,8 @@ namespace Serilog.Sink.AzureServiceBus.Test
     {
         static void Main(string[] args)
         {
-            //var ConnectionString = "The real connection string for Azure Service Bus";
-            //var QueueName = "Name of the queue";
-            var ConnectionString = "Endpoint=sb://vessel-registry-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Cu2uP3XLV4GiH3bIsu7R7yztSNJpV74nE68g7l1Hknc=";
-            var QueueName = "vr-serilog-queue-test";
+            var ConnectionString = "The real connection string for Azure Service Bus";
+            var QueueName = "Name of the queue";
 
             Log.Logger = new LoggerConfiguration()
                 .Enrich.FromLogContext()
